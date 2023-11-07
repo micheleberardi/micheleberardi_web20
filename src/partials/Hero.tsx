@@ -10,20 +10,14 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Michele</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I'm the Director Of Engineering at Bucksense, and contributor at CNCF
+          Foundation , Kubernetes and Signal. I enjoy building mechanical
+          keyboards and Make Pizza.{' '}
         </>
       }
       avatar={
@@ -44,7 +38,7 @@ const Hero = () => (
           </a>
           <a href="/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png"
+              src="/assets/images/github-icon.png"
               alt="Facebook icon"
             />
           </a>
